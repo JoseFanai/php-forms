@@ -15,6 +15,7 @@ Route::get('/', function () {
 //     // dd('Hello!');
 //     dd(request()->all());
 // });
+
 Route::post('/ideas', function () {
     // $ideas = Request::input('ideas');
     // Do something with the submitted ideas, e.g., save to database
@@ -23,6 +24,7 @@ Route::post('/ideas', function () {
 
     return redirect('/');
 });
+
 
 // temporary
 Route::get('/delete-ideas', function () {
